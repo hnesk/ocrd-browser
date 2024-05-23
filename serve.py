@@ -93,8 +93,10 @@ class RequestHandler(SimpleHTTPRequestHandler):
                 path = os.path.join(path, 'mets.xml')
             ## run app
             Popen([which('browse-ocrd'),
-                         '--display', ':' + str(self.bwport - 8080),
-                         path])
+                   '--maximize',
+                   '--fullscreen',
+                   '--display', ':' + str(self.bwport - 8080),
+                   path])
             ## proxy does not work, because the follow-up requests would need to be forwarded, too:
             # response = urllib.request.urlopen('http://' + self.bwhost + ':' + str(self.bwport))
             # self.send_response(response.status)
