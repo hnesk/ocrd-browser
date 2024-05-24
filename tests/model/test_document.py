@@ -122,6 +122,8 @@ class DocumentTestCase(TestCase):
             for page_id in doc.page_ids:
                 for fg in doc.file_groups:
                     original_file = doc.files_for_page_id(page_id, fg.group, fg.mime)[0]
+                    # workaround for core#1149: remove .url absolute path from cloning
+                    original_file.url = None
                     saved_file = saved.files_for_page_id(page_id, fg.group, fg.mime)[0]
                     self.assertEqual(original_file, saved_file)
 
