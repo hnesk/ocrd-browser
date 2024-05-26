@@ -18,23 +18,23 @@
   <mets:fileSec>
     <mets:fileGrp USE="OCR-D-IMG">
       <mets:file ID="INPUT_0017" MIMETYPE="image/tiff">
-        <mets:FLocat LOCTYPE="URL" xlink:href="OCR-D-IMG/INPUT_0017.tif"/>
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-IMG/INPUT_0017.tif"/>
       </mets:file>
       <mets:file ID="INPUT_0020" MIMETYPE="image/tiff">
-        <mets:FLocat LOCTYPE="URL" xlink:href="OCR-D-IMG/INPUT_0020.tif"/>
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-IMG/INPUT_0020.tif"/>
       </mets:file>
     </mets:fileGrp>
     <mets:fileGrp USE="OCR-D-GT-PAGE">
       <mets:file ID="PAGE_0017_PAGE" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat LOCTYPE="URL" xlink:href="OCR-D-GT-PAGE/PAGE_0017_PAGE.xml"/>
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-GT-PAGE/PAGE_0017_PAGE.xml"/>
       </mets:file>
     </mets:fileGrp>
     <mets:fileGrp USE="OCR-D-GT-ALTO">
       <mets:file ID="PAGE_0017_ALTO" MIMETYPE="application/alto+xml">
-        <mets:FLocat LOCTYPE="URL" xlink:href="OCR-D-GT-ALTO/PAGE_0017_ALTO.xml"/>
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-GT-ALTO/PAGE_0017_ALTO.xml"/>
       </mets:file>
       <mets:file ID="PAGE_0020_ALTO" MIMETYPE="application/alto+xml">
-        <mets:FLocat LOCTYPE="URL" xlink:href="OCR-D-GT-ALTO/PAGE_0020_ALTO.xml"/>
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-GT-ALTO/PAGE_0020_ALTO.xml"/>
       </mets:file>
     </mets:fileGrp>
   </mets:fileSec>
