@@ -18,18 +18,18 @@
   <mets:fileSec>
     <mets:fileGrp USE="OCR-D-IMG">
       <mets:file ID="INPUT_0017" MIMETYPE="image/tiff">
-        <mets:FLocat LOCTYPE="URL" xlink:href="OCR-D-IMG/INPUT 0017.tif"/>
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-IMG/INPUT 0017.tif"/>
       </mets:file>
       <mets:file ID="INPUT_0020" MIMETYPE="image/tiff">
-        <mets:FLocat LOCTYPE="URL" xlink:href="OCR-D-IMG/INPUT 0020.tif"/>
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-IMG/INPUT 0020.tif"/>
       </mets:file>
     </mets:fileGrp>
     <mets:fileGrp USE="OCR-D-GT-PAGE">
       <mets:file ID="PAGE_0017_PAGE" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat LOCTYPE="URL" xlink:href="OCR-D-GT PÆGE/PAGE_0017 PÄGE.xml"/>
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-GT PÆGE/PAGE_0017 PÄGE.xml"/>
       </mets:file>
       <mets:file ID="PAGE_0020_PAGE" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat LOCTYPE="URL" xlink:href="OCR-D-GT PÆGE/PAGE_0020 PÄGE.xml"/>
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-GT PÆGE/PAGE_0020 PÄGE.xml"/>
       </mets:file>
     </mets:fileGrp>
   </mets:fileSec>

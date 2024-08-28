@@ -55,7 +55,7 @@ class LauncherTestCase(TestCase):
             'Tool "missingtool" not found in your config, to fix place the following section in your ocrd-browser.conf',
             log_watch.records[0].getMessage()
         )
-        setOverrideLogLevel('OFF', True)
+        setOverrideLogLevel('CRITICAL', True)
 
     def test_launch_tool(self):
         with self.launcher.launch_tool(self.launcher.tools['echo'], self.doc, self.page_file, 'echo', stdout=subprocess.PIPE) as process:

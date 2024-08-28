@@ -83,7 +83,7 @@ tests/assets: repo/assets
 	mkdir -p $@
 	cp -r -t $@ repo/assets/data/*
 
-docker-build:
+docker-build: ocrd_browser/ui.gresource
 	docker build --tag $(DOCKER_TAG) .
 
 docker-run: DATADIR ?= $(CURDIR)

@@ -354,7 +354,7 @@ class Document:
             page_sequence.append(div)
 
         old_to_new = dict(zip(old_page_ids, self.page_ids))
-        self.workspace.mets.refresh_caches()
+        self.workspace.mets._refresh_caches()
         self.save_mets()
         self._emit('document_changed', 'reordered', old_to_new)
 
